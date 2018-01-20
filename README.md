@@ -1,2 +1,6 @@
 # configs
-config files
+repo containing config files from
+vim
+tmux 
+bash
+...

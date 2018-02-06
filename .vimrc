@@ -19,7 +19,9 @@ endif
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
+
 " --------------------Use vundle for plugins----------------------
+" 
 " set the runtime path to include Vundle and initialize
 set rtp+=/home/martin/.vim/bundle/Vundle.vim 
 " set rtp+=~/.vim/bundle/Vundle.vim
@@ -37,7 +39,6 @@ let g:ycm_semantic_triggers = {
 			\   'roslaunch' : ['="', '$(', '/'],
 			\   'rosmsg,rossrv,rosaction' : ['re!^', '/'],
 			\ }
-
 
 " use YouCompleteMe 
 Plugin 'Valloric/YouCompleteMe'
@@ -58,6 +59,7 @@ filetype plugin indent on    " required
 " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
 "
 " see :h vundle for more details or wiki for FAQ
+"
 "------------------End Vundle ------------------------------------
 
 " allow backspacing over everything in insert mode
@@ -172,9 +174,9 @@ set path+=**
 vnoremap <C-c> "*y
 
 " Store swap files in same location
-set backupdir=~/.vim/backup//
-set directory=~/.vim/swap//
-set undodir=~/.vim/undo//
+" set backupdir=~/.vim/backup//
+" set directory=~/.vim/swap//
+" set undodir=~/.vim/undo//
 
 " Default width of the netrw explorer window
 let g:netrw_winsize = 25

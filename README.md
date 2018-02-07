@@ -1,6 +1,3 @@
 # configs
 repo containing config files from
-vim
-tmux 
-bash
-...
+vim, tmux, bash, ...

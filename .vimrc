@@ -180,3 +180,15 @@ vnoremap <C-c> "*y
 
 " Default width of the netrw explorer window
 let g:netrw_winsize = 25
+
+" Highlight Cursor line
+" set cursorline
+
+"4 space indentation"
+set tabstop=4       " number of visual spaces per tab
+set shiftwidth=4    " number of spaces to use for autoindent
+set softtabstop=4   " number of spaces to insert/remove on <TAB>
+set expandtab       " insert spaces instead of tabs
+
+" Allows to escape insert mode without leaving home row.
+inoremap jk <Esc>

@@ -192,3 +192,11 @@ set expandtab       " insert spaces instead of tabs
 
 " Allows to escape insert mode without leaving home row.
 inoremap jk <Esc>
+
+" Inserting blank lines w/o entering insert mode
+" In normal mode: Enter inserts blank line below, shift-Enter above
+nnoremap <c-j> o<ESC>k
+nnoremap <c-k> O<ESC>j
+
+
+
